@@ -35,16 +35,9 @@ const Test1 = () => {
     return (
         <div>
             <h1>Victory Tutorial</h1>
-            <VictoryChart
-                domainPadding={10}
-                theme={VictoryTheme.material}
-            >
-                <VictoryAxis
-                    tickValues={["Quarter 1", "Quarter 2", "Quarter 3", "Quarter 4"]}
-                />
-                <VictoryAxis
-                    dependentAxis
-                    tickFormat={(x) => (`$${x / 1000}k`)}
+            <VictoryChart domainPadding={20}>
+                <VictoryAxis tickValues={[1, 2, 3, 4]}
+                    tickFormat={["Quarter 1", "Quarter 2", "Quarter 3", "Quarter 4"]}
                 />
                 <VictoryStack
                     colorScale={"warm"}
