@@ -13,7 +13,7 @@ const Test1 = () => {
 
     return (
         <div>
-            <h1>Victory Tutorial</h1>
+            <h1>Victory Graphs</h1>
             <VictoryChart domainPadding={20}>
                 <VictoryAxis tickValues={[1, 2, 3, 4]}
                     tickFormat={["Quarter 1", "Quarter 2", "Quarter 3", "Quarter 4"]}
